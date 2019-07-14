@@ -1,0 +1,49 @@
+html {
+  font-size: 14px;
+  /* font-family: open-sans; */
+  line-height: 12px;
+}
+
+
+/* override navbar bootstrap css style */
+
+.active a, .active a:hover {
+  color: #399bd1;
+}
+
+.navbar {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.container {
+  height: auto;
+}
+
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.jumbotron p, .jumbotron h1 {
+  color: white;
+  text-shadow: 0px 0px 1px black;
+}
+
+.btn-primary {
+  transition: box-shadow 1s;
+  background-color: #399bd1;
+  border: 0;
+}
+
+.btn-primary:hover {
+  box-shadow: 0px 0px 7px black;
+  background-color: #399bd1;
+  border: 0;
+}
+
+.btn-primary:active {
+
+}
